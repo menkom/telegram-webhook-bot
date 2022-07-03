@@ -1,0 +1,7 @@
+server:
+  port: 8099
+telegram:
+  endpoint: ""
+  username: ${TELEGRAM_USERNAME:}
+  token: ${TELEGRAM_TOKEN:}
+  webhook-host: ${TELEGRAM_WEBHOOK_HOST:"https://1871-IP.eu.ngrok.io/api"}
